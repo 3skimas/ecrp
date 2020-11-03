@@ -1,0 +1,98 @@
+@font-face{
+    font-family: Gilroy-bold;
+    src: url(../font/Gilroy-Bold.ttf);
+  }
+@font-face{
+font-family: Gilroy-medium;
+src: url(../font/Gilroy-Medium.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Gilroy-medium';
+}
+.stock-layout
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.stock-top-bar
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: #2960b3;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+}
+.stock-id-card
+{
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/idcardbg.png);
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+    transform: translateY(5vh);
+    height: 130px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.stock-id-card-userdata
+{
+    display: flex;
+    flex-direction: column;
+}
+.stock-id-card-userdata a:nth-child(2)
+{
+    margin-top: 10vh;
+}
+.stock-id-card-userdata a:nth-child(1)
+{
+    margin-top: 1vh;
+}
+.stock-market-deals-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7vh 1vw 2vh 1vw; 
+    text-align:left;
+}
+.stock-market-deals
+{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+}
+.stock-market-deals a :nth-child(1)
+{
+    text-align: left;
+    font-size: 1.3em;
+}
+.stock-market-deals i{
+    color: #4ed504;
+}
+.stock-market-list
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.stock-market-list th a
+{
+    margin-right: 1vw;
+}
+.stock-market-deals tr.spaceUnder>td 
+{
+    padding: 0.6em;
+}
+
+

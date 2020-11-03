@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/react_phone.css">
+        <link rel="stylesheet" href="/stocks.css">
+        <link rel="stylesheet" href="fontawesome.css">
+    </head>
+    <body>
+        <div class="phone">
+            <div class="phone-frame"><img src="/img/phoneFrame.png">
+                <div class="screen-space">
+                    <div class="status-bar">#1115668</div>
+
+                    <div class="stock-layout">
+                        <div class="stock-top-bar">
+                            <a>Los Santos Stock Market</a>
+                            <div class="stock-id-card">
+                                <div class="stock-id-card-userdata">
+                                        <a>Stock Market Card</a>
+                                        <a>Paulius Onde</a>                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="stock-market-deals">
+                            <div class="stock-market-deals-top">
+                                <a>STOCK MARKET</a>
+                                <i class="fas fa-money-bill-wave"></i> <span id="cash" style="color: #000000;">0</span>
+                            
+                            </div>
+                            <div class="stock-market-list">
+                                <table>
+                                  <tr class="spaceUnder">
+                                    <th><a>Stock Name</a></th>
+                                    <th><a>Symbol</a></th>
+                                    <th><a>Price</a></th>
+                                    <th><a>Buy</a></th>
+                                  </tr>
+                                  <tr class="spaceUnder">
+                                    <td><a>MAZE bank</a></td>
+                                    <td><a>MAZB</a></td>
+                                    <td><span id="MAZEBANK_price">0</span></td>
+                                    <td><i class="fa fa-plus" id="plius"></i></td>
+                                  </tr>
+                                  <tr class="spaceUnder">
+                                    <td><a>MotorSports</a></td>
+                                    <td><a>MSD</a></td>
+                                    <td><span id="MOTORSPORTS_price">0</span></td>
+                                    <td><i class="fa fa-plus" id="plus"></i></td>
+                                  </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+        <script src="https://kit.fontawesome.com/030389fb24.js" crossorigin="anonymous"></script>
+        <script src="/stock.js"></script>
+    </body>
+</html>
