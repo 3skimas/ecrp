@@ -1,3 +1,4 @@
+'use strict';
 $(function() {
 
     let stockprice = {mazebankas:"988", motorsportas: "873"};
@@ -41,7 +42,7 @@ $(function() {
         
         console.log(money);
         if(currentvalue >= money){
-            alert("neuztenkate pinigu");
+            alert("You do not have enough money!");
         } else {
             money = money - currentvalue;
             $("#cash").html(money);
