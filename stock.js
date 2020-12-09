@@ -42,7 +42,7 @@ $(function() {
         
         console.log(money);
         if(currentvalue >= money){
-            alert("You do not have enough money! hahahaha");
+            alert("You do not have enough money!");
         } else {
             money = money - currentvalue;
             $("#cash").html(money);
